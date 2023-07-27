@@ -31,103 +31,120 @@
 <body class="font-lato">
 
 
-  <header>
+  
 
-    <!-- nav-section -->
-
-    <section class=" lg: max-w-screen-xl mx-auto  bg-rose-500 rounded-3xl ">
-      <div class="navbar px-9  my-10 ">
-        <div class="navbar-start">
+   
+    
 
 
-          <ul class=" lg: flex gap-x-8 text-slate-200 ">
+    
+<section class="mt-12 lg:max-w-screen-xl mx-auto  bg-rose-600 rounded-3xl">
+  <div class="navbar">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul class=" lg:flex gap-x-8 text-slate-200 ">
             <li><a href="">Home</a></li>
             <li><a href="">About Us</a></li>
             <li><a href="">Shop</a></li>
             <li><a href="">All Fruits</a></li>
 
           </ul>
+        </ul>
+      </div>
+   <div class="hidden lg:flex">
+    <ul class="menu menu-horizontal ">
+      <ul class=" lg:flex  text-slate-200 ">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">All Fruits</a></li>
 
-        </div>
-        <div class="navbar-center gap-x-6">
-          <img src="./images/logo.png" alt="">
-          <a class=" normal-case text-4xl  font-bold text-white ">Fruit Burst</a>
-        </div>
-        <div class="navbar-end flex ">
-          <div class="form-control  flex absolute">
-            <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-3xl  " />
+      </ul>
+       </ul>
+   </div>
+    </div>
+    <div class="md:navbar-center gap-x-6 flex">
+      <img class="" src="./images/logo.png" alt="">
+      <p class=" w-[300px] normal-case text-4xl  font-bold text-white ">Fruit Burst</p>
 
-          </div>
-          <div class="icon relative  ">
-            <button class="btn btn-ghost btn-circle">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </button>
-          </div>
+ 
+    </div>
+    <div class="navbar-end hidden lg:flex ">
+      <div class="form-control  flex absolute">
+        <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-3xl  " />
 
-        </div>
+      </div>
+      <div class="icon relative  ">
+        <button class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
       </div>
 
-
-    </section>
-
+    </div>
+  </div>
+</section>
     <!-- banner-section -->
 
-    <section class="max-w-screen-xl mx-auto  my-10 ">
+    <section class="lg:max-w-screen-xl mx-auto  my-10 ">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
 
           <img src="./images/banner1.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 
-            <a href="#slide4" class="btn btn-circle mt-28">❮</a>
+            <a href="#slide4" class="btn btn-circle lg:mt-28 ">❮</a>
 
-            <div class="banner-text w-[670px] ">
-              <h2 class="text-7xl font-bold text-white ">Exotic tastes at your <span class="ml-48">doorstep</span></h2>
+            <div class="banner-text lg:w-[670px] ">
+              <h2 class="  lg:text-7xl font-bold text-white ">Exotic tastes at your <span class="lg:ml-48">doorstep</span></h2> 
 
               <div class="butten text-center">
-                <p class="text-white my-6 font-bold">We supply highly quality organic products</p>
+                <p class="text-white lg:my-6 font-bold">We supply highly quality organic products</p>
                 <button class="btn btn-secondary ">Buy Now</button>
               </div>
             </div>
-            <a href="#slide2" class="btn btn-circle mt-28">❯</a>
+            <a href="#slide2" class="btn btn-circle lg:mt-28">❯</a>
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
           <img src="./images/banner2.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle mt-28">❮</a>
+            <a href="#slide1" class="btn btn-circle lg:mt-28">❮</a>
 
-            <div class="banner-text w-[670px] ">
-              <h2 class="text-7xl font-bold text-white ">Exotic tastes at your <span class="ml-48">doorstep</span></h2>
+            <div class="banner-text lg:w-[670px] ">
+              <h2 class="lg:text-7xl font-bold text-white ">Exotic tastes at your <span class="lg:ml-48">doorstep</span></h2>
 
               <div class="butten text-center">
-                <p class="text-white my-6 font-bold">We supply highly quality organic products</p>
+                <p class="text-white lg:my-6 font-bold">We supply highly quality organic products</p>
                 <button class="btn btn-secondary ">Buy Now</button>
               </div>
             </div>
 
-            <a href="#slide3" class="btn btn-circle mt-28">❯</a>
+            <a href="#slide3" class="btn btn-circle lg:mt-28">❯</a>
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
           <img src="./images/banner3.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle mt-28">❮</a>
+            <a href="#slide2" class="btn btn-circle lg:mt-28">❮</a>
 
-            <div class="banner-text w-[670px] ">
-              <h2 class="text-7xl font-bold text-white ">Exotic tastes at your <span class="ml-48">doorstep</span></h2>
+            <div class="banner-text lg:w-[670px] ">
+              <h2 class="lg:text-7xl font-bold text-white ">Exotic tastes at your <span class="lg:ml-48">doorstep</span></h2>
 
               <div class="butten text-center">
-                <p class="text-white my-6 font-bold">We supply highly quality organic products</p>
+                <p class="text-white lg:my-6 font-bold">We supply highly quality organic products</p>
                 <button class="btn btn-secondary ">Buy Now</button>
               </div>
             </div>
 
-            <a href="#slide4" class="btn btn-circle mt-28">❯</a>
+            <a href="#slide4" class="btn btn-circle lg:mt-28">❯</a>
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
@@ -135,16 +152,16 @@
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle mt-28">❮</a>
 
-            <div class="banner-text w-[670px] ">
-              <h2 class="text-7xl font-bold text-white ">Exotic tastes at your <span class="ml-48">doorstep</span></h2>
+            <div class="banner-text lg:w-[670px] ">
+              <h2 class="mt:text-7xl text-xl  font-bold text-white ">Exotic tastes at your <span class="lg:ml-48">doorstep</span></h2>
 
               <div class="butten text-center">
-                <p class="text-white my-6 font-bold">We supply highly quality organic products</p>
+                <p class="text-white lg:my-6 font-bold">We supply highly quality organic products</p>
                 <button class="btn btn-secondary ">Buy Now</button>
               </div>
             </div>
 
-            <a href="#slide1" class="btn btn-circle mt-28">❯</a>
+            <a href="#slide1" class="btn btn-circle lg:mt-28">❯</a>
           </div>
         </div>
       </div>
@@ -152,7 +169,7 @@
 
     <!-- position-banner -->
 
-    <section class=" max-w-screen-lg pl-12 p-5 relative -mt-32 mx-auto bg-slate-50 ">
+    <section class=" hidden lg:block  max-w-screen-lg pl-12 p-5 relative -mt-32 mx-auto bg-slate-50 ">
 
       <div class="banner-img-name grid grid-cols-5   ">
         <div class="banner-img   ">
@@ -189,7 +206,7 @@
     <!-- main-heder -->
 
     <section class="mt-10">
-      <div class="main-heder max-w-screen-xl mx-auto flex justify-between">
+      <div class="main-heder max-w-screen-xl mx-auto lg:flex lg:justify-between">
         <div>
           <h2 class="font-bold text-5xl my-5">
             Deal of the day
