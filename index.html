@@ -28,15 +28,7 @@
 
 </head>
 
-<body class="font-lato">
-
-
-  
-
-   
-    
-
-
+<body class="font-lato overflow-x-hidden">
     
 <section class="mt-12 lg:max-w-screen-xl mx-auto  bg-rose-600 rounded-3xl">
   <div class="navbar">
@@ -206,7 +198,7 @@
     <!-- main-heder -->
 
     <section class="mt-10">
-      <div class="main-heder max-w-screen-xl mx-auto lg:flex lg:justify-between">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-10 main-heder max-w-screen-xl mx-auto lg:flex lg:justify-between">
         <div>
           <h2 class="font-bold text-5xl my-5">
             Deal of the day
@@ -217,7 +209,7 @@
           </p>
         </div>
 
-        <div class="count-down">
+        <div class="count-down my-5">
           <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
@@ -453,21 +445,23 @@
       <div class="hero   " style="background-image: url(./images/team.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content p-20">
-          <div class="max-w-md">
+          <div class="max-w-md  ">
             <h1 class="mb-5 text-5xl font-bold text-white">Meet the team section</h1>
             <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
               Latin literature from 45 BC, making it over 2000 years old.</p>
 
-            <div class="people flex   gap-10 -ml-16">
+            <div class="people grid grid-cols-1 md:grid-cols-4   gap-10 -ml-16">
               <div class="img-info ">
                 <div class="avatar">
                   <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src="./images/member1.png" />
                   </div>
                 </div>
-                <div class="info my-4 m-4">
-                  <h3>Awlad Hossain</h3>
+                <div class="info">
+                  <div class="">
+                    <h3 class="md:w-[110px]">Awlad Hossain</h3>
                   <p>Fruits Expert</p>
+                  </div>
                   <div>
                     <div class="grid grid-flow-col gap-4">
                       <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -498,7 +492,7 @@
                     <img src="./images/member2.png" />
                   </div>
                 </div>
-                <div class="info my-4 m-4">
+                <div class="info ">
                   <h3>Safia </h3>
                   <p>Fruits Expert</p>
                   <div>
@@ -531,8 +525,8 @@
                     <img src="./images/member3.png" />
                   </div>
                 </div>
-                <div class="info my-4 m-4">
-                  <h3>Rokib Hossain</h3>
+                <div class="info ">
+                  <h3 class="md:w-[110px]">Rokib Hossain</h3>
                   <p>Fruits Expert</p>
                   <div>
                     <div class="grid grid-flow-col gap-4">
@@ -564,7 +558,7 @@
                     <img src="./images/member4.png" />
                   </div>
                 </div>
-                <div class="info my-4 m-4">
+                <div class="info ">
                   <h3>Chaity</h3>
                   <p>Fruits Expert</p>
                   <div>
@@ -620,7 +614,7 @@
 
           </div>
 
-          <div class="why-us grid grid-cols-3 gap-x-8">
+          <div class="why-us grid md:grid-cols-3 gap-x-8">
             <div class="about">
               <h1 class="mb-2 text-2xl font-bold">Dedicated Team</h1>
               <hr class="w-24 ">
